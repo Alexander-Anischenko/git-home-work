@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(67, 226, 165, 0.5);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 450px;
+    min-height: 100px;
+    background-color:rgba(2, 167, 167, 0.753);
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+    border:2px outset rgba(180, 238, 238, 0.753);
+}
